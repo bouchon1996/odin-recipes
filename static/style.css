@@ -1,0 +1,15 @@
+body {
+    font-family: 'Mona Sands', Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+
+ul {
+    font-size: 16px;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: rgba(20, 20, 20, 0.946);
+        color: white;
+    }
+}
