@@ -1,10 +1,30 @@
+
 body {
     font-family: 'Mona Sands', Arial, Helvetica, sans-serif;
     background-color: rgb(255, 255, 255);
 }
 
-ul {
-    font-size: 16px;
+h1 {
+  
+}
+
+h1,img {
+    margin-left: 200 px;
+}
+
+.recipe{
+    font-size: 20px;
+    margin: 5px;
+    padding: 5px;
+
+}
+
+.ingredients li {
+    padding: 3px;    
+}
+
+.steps li {
+    padding: 2px;
 }
 
 @media (prefers-color-scheme: dark) {
